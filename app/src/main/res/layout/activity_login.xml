@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/con_bg"
+    tools:context="com.example.amhso.salamat.LoginActivity">
+
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cover_white2"
+    android:padding="60dp"
+    android:isScrollContainer="true">
+
+
+
+
+
+    <TextView
+        android:id="@+id/des_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/text_number"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="18dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:lineSpacingMultiplier="1"
+        android:lineSpacingExtra="2dp"/>
+
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:hint="@string/example_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/des_logo"
+        android:layout_marginTop="50dp"
+        android:inputType="phone"
+        />
+
+
+    <Button
+        android:id="@+id/bphone"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:layout_alignTop="@+id/phone"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+
+        android:background="@drawable/border_shadow"
+        />
+
+</RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

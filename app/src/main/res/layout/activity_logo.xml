@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    android:id="@+id/con_bg"
+    tools:context="com.example.amhso.salamat.LogoActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cover_white"
+        android:isScrollContainer="false">
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imagelogo"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:scaleType="center"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--app:srcCompat="@drawable/meshope" />-->
+
+
+        <!--<ImageView-->
+        <!--android:id="@+id/text_logo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignTop="@+id/imagelogo" />-->
+
+
+        <TextView
+            android:id="@+id/des_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/primese_text"
+            android:textAlignment="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textSize="18dp"
+            android:layout_centerInParent="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:lineSpacingMultiplier="1"
+            android:lineSpacingExtra="2dp"/>
+
+
+
+
+        <Button
+            android:id="@+id/primese"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/primese"
+            android:layout_alignTop="@+id/des_logo"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="100dp"
+            android:visibility="gone"
+            android:background="@drawable/border_shadow"
+            />
+
+    </RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

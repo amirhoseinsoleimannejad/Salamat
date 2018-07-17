@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c40304</color>
+    <color name="colorPrimaryDark">#c40304</color>
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="cover_white">#80ffffff</color>
+
+    <color name="color_one">#23c404</color>
+    <color name="color_two">#c40304</color>
+    <color name="cover_white2">#edffffff</color>
+
+    <color name="message_bg">#97e1e5</color>
+    <color name="white">#fff</color>
+
+    <color name="green">#005763</color>
+</resources>

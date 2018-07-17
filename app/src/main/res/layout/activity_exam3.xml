@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="50dp">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_location"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:text="@string/textq10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <CheckBox
+                android:id="@+id/box1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/box1" />
+
+
+            <CheckBox
+                android:id="@+id/box2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/box2"
+                android:checked="true" />
+
+            <CheckBox
+                android:id="@+id/box3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/box3" />
+
+
+            <CheckBox
+                android:id="@+id/box4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/box4" />
+
+
+            <CheckBox
+                android:id="@+id/box5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/box5" />
+
+
+            <CheckBox
+                android:id="@+id/box6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/box6" />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:id="@+id/send2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_shadow"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/send"/>
+
+
+
+    </LinearLayout>
+
+
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            class="com.google.android.gms.maps.SupportMapFragment" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

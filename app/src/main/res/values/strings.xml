@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="app_name">برنامه سلامت</string>
+    <string name="primese_text">این اپلیکیشن تنها آزمون سلامت ریه است و اطلاعات ثبت شده در آن کاملاً محرمانه می باشد با تشکر</string>
+    <string name="primese">قبول دارم بزن بریم</string>
+    <string name="text_number">شماره خود را وارد کنید باتشکر</string>
+    <string name="send">ارسال</string>
+    <string name="example_number">09369896983</string>
+
+    <string name="name">نام و نام خانوادگی</string>
+    <string name="age">سن</string>
+    <string name="national">ملیت</string>
+    <string name="job">شغل</string>
+    <string name="phone">تلفن</string>
+    <string name="address">آدرس</string>
+    <string name="weight">وزن</string>
+    <string name="radio_male">زن</string>
+    <string name="radio_female">مرد</string>
+
+    <string name="marriage">متاهل</string>
+    <string name="single">مجرد</string>
+
+
+    <string name="textq1">آیا سرفه ای بیش از دو هفته دارید؟</string>
+    <string name="textq2">آیا خلط سینه دارید؟</string>
+    <string name="textq3">آیا خلط خونی دارید؟</string>
+    <string name="textq4">آیا تنگ نفس دارید؟</string>
+    <string name="textq5">آیا معمولاً تب دارید؟</string>
+    <string name="textq6">آیا تعریق شبانه دارید؟</string>
+    <string name="textq7">آیا کاهش وزن دارید؟</string>
+    <string name="textq8">آیا درد قفسه سینه دارید؟</string>
+    <string name="textq9">آیا کاهش اشتها دارید؟</string>
+
+    <string name="textq11">ایا در اطرافیان شما کسی هست که سرفه طولانی (به هر دلیل)داشته باشد؟</string>
+    <string name="textq12">ایا از  سیگار .قلیان (تفریحی ویا دائم) استفاده می کنید؟</string>
+    <string name="textq13">ایا از مواد روانگردان مانند گل .حشیش.تریاک والکل و....(به صورت تفریحی ویا دائم )؟</string>
+
+
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+
+
+    <string name="textq10">کدامیک از بیماری های ذیل به نظر شما بدینگونه باید پیگیری شوند</string>
+
+    <string name="chbox1">بیماری ایدز</string>
+
+
+    <string name="box1">بیماری ایدز</string>
+    <string name="box2">بیماری اظطراب</string>
+    <string name="box3">بیماری اعتیاد</string>
+    <string name="box4">بیماری افسردگی</string>
+    <string name="box5">بیماری وبا</string>
+    <string name="box6">بیماری فلج اطفال</string>
+    <string name="text_location">  سوال زیر را جواب به درستی جواب دهید و در آخر نزدیک ترین درمانگر به شما جواب خواهد داد با تشکر</string>
+    <string name="empty_message">جهت انجام آزمایش و تست سلامتی مراجعه کنید به درمانگر منطقه خود در ضمن تمام این آزمایشات رایگان است با تشکر</string>
+
+
+    <string name="item_1">پیام ها</string>
+    <string name="item_2">ویرایش مشخصات کاربری</string>
+    <string name="item_3">خروج</string>
+    <string name="item_lab">پیگیری جواب آزمایش</string>
+
+
+    <string name="ccontinue">ادامه می دهم</string>
+    <string name="no_ccontinue">ادامه نمی دهم</string>
+
+</resources>
